@@ -13,13 +13,11 @@ docker で sinatra を動かすサンプル
 boot2docker の install から起動手順  
 1. [Docker for OS X Installer](https://github.com/boot2docker/osx-installer/releases/latest) からpkgファイルをダウンロード  
 2. VirtualBoxを止めてinstall開始  
-3. Application directory の boot2docker.app を起動するか下記のコマンドを実行して初期化  
+3. Application directory の boot2docker.app を起動するか下記のコマンドを実行して初期化して起動する   
 `$ boot2docker init`  
 `$ boot2docker start`  
 `$ $(boot2docker shellinit)`  
-4. 下記のコマンドを実行してboot2docker を起動  
-`$ boot2docker start`  
-  
+
   
 ## Usage  
   
