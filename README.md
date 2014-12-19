@@ -19,14 +19,6 @@ boot2docker の install から起動手順
 `$ $(boot2docker shellinit)`  
 4. 下記のコマンドを実行してboot2docker を起動  
 `$ boot2docker start`  
-5. 起動後  
-```
-    To connect the Docker client to the Docker daemon, please set:  
-        export DOCKER_HOST=tcp://192.168.59.103:2376   
-        export DOCKER_CERT_PATH=/Users/k-shin/.boot2docker/certs/boot2docker-vm   
-        export DOCKER_TLS_VERIFY=1  
-```
-  こんなのが表示されるのでexport部分をそのままコピペして実行
   
   
 ## Usage  
