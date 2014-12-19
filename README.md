@@ -2,12 +2,12 @@ docker sinatra example
 ======================
   
 docker で sinatra を動かすサンプル  
-※ macユーザ対象を対象としています。  
+※ macユーザを対象としています。 
   
   
 ## Dependencies
   
-下記を事前にインストールしておいたください。  
+下記を事前にインストールしておいてください。  
 * [boot2docker](https://docs.docker.com/installation/mac/)  
   
 boot2docker の install から起動手順  
