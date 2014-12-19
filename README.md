@@ -20,11 +20,13 @@ boot2docker の install から起動手順
 4. 下記のコマンドを実行してboot2docker を起動  
 `$ boot2docker start`  
 5. 起動後  
-    To connect the Docker client to the Docker daemon, please set:
-        export DOCKER_HOST=tcp://192.168.59.103:2376
-        export DOCKER_CERT_PATH=/Users/k_shinmura/.boot2docker/certs/boot2docker-vm
+```
+    To connect the Docker client to the Docker daemon, please set:  
+        export DOCKER_HOST=tcp://192.168.59.103:2376   
+        export DOCKER_CERT_PATH=/Users/k-shin/.boot2docker/certs/boot2docker-vm   
         export DOCKER_TLS_VERIFY=1  
-  が表示されるのでこれをそのままコピペして実行
+```
+  こんなのが表示されるのでexport部分をそのままコピペして実行
   
   
 ## Usage  
@@ -36,7 +38,7 @@ boot2docker の install から起動手順
 3. containerの起動  
 `$ docker run -d -p 25000:5000 docker-sinatra-example`  
 4. 動作確認  
-`$ curl http://``boot2docker ip``:25000/hello`  
+``$ curl http://`boot2docker ip`:25000/hello``  
   
   
 ## Structure  
