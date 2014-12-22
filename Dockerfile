@@ -1,6 +1,7 @@
 FROM ubuntu:trusty
 
 RUN apt-get update && apt-get install -y ruby
+RUN apt-get clean
 RUN gem install sinatra
 
 COPY hello.rb /etc/hello.rb
