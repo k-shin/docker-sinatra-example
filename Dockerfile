@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM docker-sinatra-example
 
 RUN apt-get update && apt-get install -y ruby
 RUN apt-get clean
